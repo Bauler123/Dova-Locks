@@ -17,7 +17,7 @@ Choose one download:
 
 Close the game and stop the server before installing or updating. For a manual install, put **Dova-Locks_P.pak** in `Icarus/Content/Paks/Mods`. Create `Mods` if it does not exist.
 
-The host or dedicated server and **every player** need the same release. A server running Dova Locks disconnects clients that are missing it or running an incompatible version. Keep only one Dova Locks PAK installed; remove older Dova test builds when updating.
+The host or dedicated server and **every player** need the same release. A server running Dova Locks disconnects clients that are missing it or running an incompatible version. Keep only one Dova Locks PAK installed. Replace the old file when updating.
 
 ## Using locks
 
