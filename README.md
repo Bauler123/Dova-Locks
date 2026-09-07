@@ -8,12 +8,25 @@ Lock a door or container, share a four-digit PIN, and decide what other players 
 
 *Your base. Your PIN. Your questionable choice of roommates.*
 
+## What's new in 1.0.1
+
+More room for big bases, and a little less guesswork.
+
+- Link much larger bases, with room for up to 4,096 building pieces and 8,192 connected objects in total.
+- Clearer messages explain why a base could not be linked.
+- Mission structures and objects marked as part of a quest are kept out of player claims.
+- The installer automatically selects ICARUS when it finds one installation.
+- Scan your mods folder and choose which mods to remove. Removed files are backed up.
+- Install / Update replaces the old Dova Locks file for you and keeps a backup.
+
+Update the server and every player's PC to 1.0.1. Your existing locks and remembered access are kept.
+
 ## Installation
 
 Choose one download:
 
-- [**Dova-Locks-Installer.exe**](https://github.com/VariantCreator/Dova-Locks/releases/download/v1.0.0/Dova-Locks-Installer.exe) finds ICARUS on your PC. Choose your game and click **Install / Update**; it handles the files for you. The PAK is included.
-- [**Dova-Locks_P.pak**](https://github.com/VariantCreator/Dova-Locks/releases/download/v1.0.0/Dova-Locks_P.pak) is the mod file for a manual or hosted-server install.
+- [**Dova-Locks-Installer.exe**](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks-Installer.exe) finds ICARUS on your PC. It selects your game automatically when one installation is found. Click **Install / Update** to replace the old mod and back up the previous files. You can also scan your mods folder and choose mods to remove. The PAK is included.
+- [**Dova-Locks_P.pak**](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks_P.pak) is the mod file for a manual or hosted-server install.
 
 Close the game and stop the server before installing or updating. For a manual install, put **Dova-Locks_P.pak** in `Icarus/Content/Paks/Mods`. Create `Mods` if it does not exist.
 
