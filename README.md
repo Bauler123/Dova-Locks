@@ -12,12 +12,12 @@ Lock a door or container, share a four-digit PIN, and decide what other players 
 
 Choose one download:
 
-- [**Dova-Locks-Installer.exe**](https://github.com/Bauler123/Dova-Locks/releases/download/v1.0.0/Dova-Locks-Installer.exe) finds local ICARUS installations and installs the mod after you choose the destination. It creates the Mods folder if needed. You don't need to download the PAK separately.
+- [**Dova-Locks-Installer.exe**](https://github.com/Bauler123/Dova-Locks/releases/download/v1.0.0/Dova-Locks-Installer.exe) finds ICARUS on your PC. Choose your game and click **Install / Update**; it handles the files for you. The PAK is included.
 - [**Dova-Locks_P.pak**](https://github.com/Bauler123/Dova-Locks/releases/download/v1.0.0/Dova-Locks_P.pak) is the mod file for a manual or hosted-server install.
 
 Close the game and stop the server before installing or updating. For a manual install, put **Dova-Locks_P.pak** in `Icarus/Content/Paks/Mods`. Create `Mods` if it does not exist.
 
-The host or dedicated server and **every player** need the same release. A server running Dova Locks disconnects clients that are missing it or running an incompatible version. Keep only one Dova Locks PAK installed. Replace the old file when updating.
+The host or dedicated server and **every player** need the same release. Players without the mod, or with an incompatible version, cannot join. Keep only one Dova Locks PAK installed. Replace the old file when updating.
 
 ## Using locks
 
@@ -36,8 +36,8 @@ The owner or a co-owner can put a separate private lock on storage inside the ba
 | --- | --- |
 | Guest | Enter a PIN to request access. |
 | Associate | Use doors, windows and crafting benches. No storage access, building, pickup or dismantling. |
-| Member | Use shared storage and carry out building, pickup and modification within the base. |
-| Co-owner | Member access plus lock management and access removal/restoration for lower roles. |
+| Member | Use shared storage, build, pick up items and modify the base. |
+| Co-owner | Member access, plus managing locks and removing or restoring access for Members and Associates. |
 | Owner | Full control, including assigning roles and removing co-owners. |
 
 Access is remembered, so players don't have to enter the PIN every time. Removing someone's access prevents them from using that PIN again until an owner or co-owner restores their access. Private storage has its own permissions.
@@ -52,7 +52,7 @@ Locks and player access are saved between sessions and kept when you update the 
 
 Dova Locks is designed for dedicated servers and player-hosted games. Player-hosted support has had limited testing.
 
-Other mods that change the same game features may conflict. Indirect damage, such as spreading fire, may bypass player-damage protection.
+Other mods that change the same game features may conflict. Indirect damage, such as spreading fire, may still damage protected objects.
 
 ## Updating after a game patch
 
