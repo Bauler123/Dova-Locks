@@ -26,7 +26,7 @@ The host or dedicated server and **every player** need the same release. A serve
 3. Share the PIN with the people you want to invite. Entering it grants **Associate** access by default.
 4. The owner can select a player in **Player access** and assign their role.
 
-Use **Link connected base** to share the lock across the connected structure. Membership refreshes automatically as the base changes, including supported stacked deployables and connected water/electric networks. Removing the original locked door or window does not remove the base lock.
+Use **Link connected base** to share the lock across the connected structure. Membership refreshes automatically as the base changes, including supported stacked deployables and connected water/electric networks.
 
 The owner or a co-owner can put a separate private lock on storage inside the base. That storage uses its own access list. Press **Esc** to close a menu.
 
