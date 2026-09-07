@@ -4,7 +4,7 @@ Shared PIN locks and base protection for ICARUS, by Dova.
 
 Lock a door or container, share a four-digit PIN, and decide what other players can do in your base. Link a lock to the connected building to protect the base together, or keep a storage crate private.
 
-[Download the latest release](https://github.com/Bauler123/Dova-Locks/releases/latest) · [Report a problem](https://github.com/Bauler123/Dova-Locks/issues) · [Variant Interactive Map](https://variantinteractivemap.org)
+[Download the latest release](https://github.com/VariantCreator/Dova-Locks/releases/latest) · [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues) · [Variant Interactive Map](https://variantinteractivemap.org)
 
 *Your base. Your PIN. Your questionable choice of roommates.*
 
@@ -12,8 +12,8 @@ Lock a door or container, share a four-digit PIN, and decide what other players 
 
 Choose one download:
 
-- [**Dova-Locks-Installer.exe**](https://github.com/Bauler123/Dova-Locks/releases/download/v1.0.0/Dova-Locks-Installer.exe) finds ICARUS on your PC. Choose your game and click **Install / Update**; it handles the files for you. The PAK is included.
-- [**Dova-Locks_P.pak**](https://github.com/Bauler123/Dova-Locks/releases/download/v1.0.0/Dova-Locks_P.pak) is the mod file for a manual or hosted-server install.
+- [**Dova-Locks-Installer.exe**](https://github.com/VariantCreator/Dova-Locks/releases/download/v1.0.0/Dova-Locks-Installer.exe) finds ICARUS on your PC. Choose your game and click **Install / Update**; it handles the files for you. The PAK is included.
+- [**Dova-Locks_P.pak**](https://github.com/VariantCreator/Dova-Locks/releases/download/v1.0.0/Dova-Locks_P.pak) is the mod file for a manual or hosted-server install.
 
 Close the game and stop the server before installing or updating. For a manual install, put **Dova-Locks_P.pak** in `Icarus/Content/Paks/Mods`. Create `Mods` if it does not exist.
 
