@@ -4,7 +4,7 @@ A little privacy for your ICARUS base, by Dova.
 
 Add a PIN, let your friends in, and decide who can use what. You can protect a connected base with one lock or keep a chest private. Someone has to look after the snacks.
 
-[Get the latest version](https://github.com/VariantCreator/Dova-Locks/releases/latest) · [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues) · [Variant Interactive Map](https://variantinteractivemap.org)
+[Get the latest version](https://github.com/VariantCreator/Dova-Locks/releases/latest) Â· [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues) Â· [Variant Interactive Map](https://variantinteractivemap.org)
 
 ## What's new in 1.0.5
 
@@ -74,9 +74,11 @@ Lock saves are usually here on the host:
 
 Look for `DovaLocks_<world ID>_A.sav` and `_B.sav`. Some server hosts use a different Saved folder.
 
-Stop the game or server and keep both files together. Open **Dova Locks save tools** in the organizer, choose either save, and export an editable copy. Remove a player entry to block their access. To clear a whole lock, set `removeLock` to `true`.
+Stop the game or server and keep both files together. Open **Dova Locks save tools** in the organizer and choose either save. Select a lock to see its remembered players, block or restore access, or clear the lock. Click **Save changes to A and B** when ready.
 
-Apply the edited copy to update both saves. The app backs up the originals first. For a remote server, download both saves before editing and upload both replacements afterwards. Steam IDs identify players, so changing a name alone won't remove access.
+You can also export and import an editable copy for advanced changes. After installing the organizer, Windows offers it under **Open with** for save files.
+
+Saving updates both files. The app backs up the originals first. For a remote server, download both saves before editing and upload both replacements afterwards. Steam IDs identify players, so changing a name alone won't remove access.
 
 ## Good to know
 
@@ -89,3 +91,9 @@ Found a problem? Tell me what happened, which versions you're using and what oth
 You can also check out my [Variant Interactive Map](https://variantinteractivemap.org) for ICARUS and Valheim.
 
 Dova Locks is an unofficial community mod. ICARUS belongs to RocketWerkz and Unreal Engine belongs to Epic Games.
+
+## Organizer 1.2.2
+
+Both launch buttons now start ICARUS through Steam. The app has a cleaner ICARUS-inspired look, matching launch buttons, a link to Variant Interactive Map, and progress bars while files are being imported or saved. The mod list now has search, select all and clear selection.
+
+World lock saves open in a player-access screen. This update also fixes reading the current A/B save format. Your original files are backed up before saving changes.
