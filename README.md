@@ -6,13 +6,12 @@ Add a PIN, let your friends in, and decide who can use what. You can protect a c
 
 [Get the latest version](https://github.com/VariantCreator/Dova-Locks/releases/latest) · [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues) · [Variant Interactive Map](https://variantinteractivemap.org)
 
-## What's new in 1.0.5
+## What's new in 1.0.6
 
-- The little circle in the E button now fills while you hold Shift + E for Lock controls.
-- The download includes import info for Icarus Mod Manager.
-- The app is now **Variant Mod Organizer, by Dova**. Add or remove mods and launch ICARUS with or without them.
-- Server owners can edit lock saves through the app, with backups before anything changes.
-- Updating checks the latest release and the installed file. If the check fails, the app stops instead of falling back to an older download.
+- Lock controls follow your Interact key. Use F, E or your own binding, and the hint and hold circle follow along.
+- Variant Mod Organizer 1.3.0 has separate Enabled and Disabled lists. Move mods with the arrows or drag them across.
+- Both launch buttons ask before starting ICARUS through Steam.
+- Smaller scrollbars, cleaner buttons and a little less clutter.
 
 Your locks and player access stay in place when you update. Update the server and everyone playing on it together.
 
@@ -36,12 +35,12 @@ For a hosted server, stop it first and upload the PAK through your host's file m
 
 ## Using your locks
 
-1. Look at a supported door, window, container or bench. Hold **Shift**, then hold **E** to open Lock controls.
+1. Look at a supported door, window, container or bench. Hold **Shift**, then hold your **Interact key** (F by default, or E if you changed it) to open Lock controls.
 2. Enter a four-digit PIN and choose **Install lock**.
 3. Use **Link connected base** if you want that lock to cover the connected building and its equipment.
 4. Share the PIN with friends. Use **Player access** to choose what each person can do.
 
-The usual E controls still work when you're not holding Shift, including turning equipment on and off. You can paste a PIN, use **Show PIN** to check it, and press **Esc** to close the menu.
+Your usual Interact controls still work when you're not holding Shift, including turning equipment on and off. You can paste a PIN, use **Show PIN** to check it, and press **Esc** to close the menu.
 
 Connected pieces join the base lock automatically, including supported stacked items and equipment linked by pipes or cables. Owners and co-owners can also give a chest its own private lock.
 
@@ -58,9 +57,13 @@ Players without permission can't pick up, dismantle or directly damage protected
 
 ## Variant Mod Organizer
 
-**Add / remove mods** lets you import PAKs or ZIPs, scan the mods folder, and remove selected mods. Removed and replaced files are backed up.
+**Add / remove mods** lets you import PAKs or ZIPs, scan your mods folder and choose what to play with. Disabled mods go on the left, enabled mods on the right. Select a mod and use the arrows, or drag it across. Disabled means parked, not deleted.
 
-**Launch vanilla** puts your mods aside and starts ICARUS without them. **Launch modded** brings them back. Opening Add / remove mods or updating Dova Locks also brings your mods back, so close the game before switching.
+Search helps when your collection gets a little out of hand. Removed and replaced files are backed up.
+
+**Launch vanilla** puts your enabled mods aside. **Launch modded** brings that loadout back. Mods you disabled individually stay disabled. Both buttons ask before starting ICARUS through Steam, so you can cancel if you clicked the wrong one.
+
+Opening Add / remove mods or updating Dova Locks also restores your modded loadout. Close the game before switching.
 
 The organizer doesn't merge mods. Use Icarus Mod Manager if your mods need merging. Mods that change the same menus or interactions can still clash.
 
@@ -91,9 +94,3 @@ Found a problem? Tell me what happened, which versions you're using and what oth
 You can also check out my [Variant Interactive Map](https://variantinteractivemap.org) for ICARUS and Valheim.
 
 Dova Locks is an unofficial community mod. ICARUS belongs to RocketWerkz and Unreal Engine belongs to Epic Games.
-
-## Organizer 1.2.2
-
-Both launch buttons now start ICARUS through Steam. The app has a cleaner ICARUS-inspired look, matching launch buttons, a link to Variant Interactive Map, and progress bars while files are being imported or saved. The mod list now has search, select all and clear selection.
-
-World lock saves open in a player-access screen. This update also fixes reading the current A/B save format. Your original files are backed up before saving changes.
