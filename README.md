@@ -6,12 +6,21 @@ Add a PIN, let your friends in, and decide who can use what. You can protect a c
 
 [Get the latest version](https://github.com/VariantCreator/Dova-Locks/releases/latest) · [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues) · [Variant Interactive Map](https://variantinteractivemap.org)
 
-## What's new in 1.0.6
+## Current downloads
 
-- Lock controls follow your Interact key. Use F, E or your own binding, and the hint and hold circle follow along.
-- Variant Mod Organizer 1.3.0 has separate Enabled and Disabled lists. Move mods with the arrows or drag them across.
-- Both launch buttons ask before starting ICARUS through Steam.
-- Smaller scrollbars, cleaner buttons and a little less clutter.
+- **Dova Locks 1.0.7:** [Download the PAK](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks_P.pak)
+- **Variant Mod Organizer 1.4.0:** [Download the installer](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest/download/Variant-Mod-Organizer-Installer.exe)
+- [Organizer page on Nexus](https://www.nexusmods.com/icarus/mods/329) · [Organizer source and releases](https://github.com/VariantCreator/Variant-Mod-Organizer)
+
+## What's new in 1.0.7
+
+- Quicker checks for players with a missing or mismatched mod.
+- Clearer borders around lock menu buttons and boxes.
+- Improved cleanup when opening menus, leaving servers and changing worlds.
+- DovaOutPut events to help track down problems.
+- Organizer 1.4.0 includes the matching mod, a larger diagnostics window and an Unreal crash report viewer.
+
+Automated checks passed. The updated connection checks still need confirmation on a real dedicated server with a player joining without the mod.
 
 Your locks and player access stay in place when you update. Update the server and everyone playing on it together.
 
