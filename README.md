@@ -8,30 +8,42 @@ Lock a door or container, share a four-digit PIN, and decide what other players 
 
 *Your base. Your PIN. Your questionable choice of roommates.*
 
-## What's new in 1.0.4
+## What's new in 1.0.5
 
-This update fixes the Lock controls shortcut and brings back the familiar interaction prompt.
+- The Shift + Hold E shortcut now drives the hold-progress circle in the E button.
+- Dova Locks includes import information for Icarus Mod Manager.
+- The desktop app is now **Variant Mod Organizer, by Dova**. Import PAKs or ZIPs, scan and remove mods, and launch ICARUS with or without your mods.
+- New **Dova Locks save tools** let server owners export readable lock records and apply changes with backups.
+- Install / Update checks the current release again before installing and verifies the file in your selected game folder. A failed version check stops the update.
 
-- Hold **Shift**, then hold **E** to open Lock controls, including on connected equipment.
-- While Shift is held, the usual Hold E line says **Hold To Lock Controls**. Release Shift and the normal action returns.
-- Normal **E** and **Hold E** keep their usual jobs, including switching devices on or off.
-- The hint beside the lock icon stays in place. The interaction line uses a single label.
-- The installer includes 1.0.4. Already using the app? Click **Install / Update**.
-
-**Update the server and every player's PC together.** Your existing locks and access are kept.
-
-Please report any remaining trouble opening Lock controls, especially on connected equipment.
+Update your server and players together. Your existing locks and access are kept.
 
 ## Installation
 
 Choose one download:
 
-- [**Dova-Locks-Installer.exe**](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks-Installer.exe) installs the Dova Locks app. Open the app, let it find ICARUS, then click **Install / Update**. It checks for the latest mod, backs up files it replaces, and lets you scan or remove mods. Version 1.0.4 is also included for offline installation.
+- [**Variant-Mod-Organizer-Installer.exe**](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Variant-Mod-Organizer-Installer.exe) installs the desktop app. Let it find ICARUS, check the displayed game folder, then click **Install / Update**. It downloads the current Dova Locks release and backs up files it replaces. An internet connection is needed for the version check.
 - [**Dova-Locks_P.pak**](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks_P.pak) is the mod file for a manual or hosted-server install.
 
-Close the game and stop the server before installing or updating. For a manual install, put **Dova-Locks_P.pak** in `Icarus/Content/Paks/Mods`. Create `Mods` if it does not exist.
+Close the game and stop the server before installing or updating. For a manual install, put **Dova-Locks_P.pak** in `Icarus/Content/Paks/mods`. Create `mods` if it does not exist.
 
 The host or dedicated server and **every player** need the same release. Players without the mod, or with an incompatible version, cannot join. Keep only one Dova Locks PAK installed. Replace the old file when updating.
+
+## Variant Mod Organizer
+
+Use **Add / remove mods** to import a PAK or ZIP, scan your mods folder, or remove selected mods. Removed and replaced files are backed up.
+
+**Launch vanilla** keeps your mods outside the game's Paks folder. **Launch modded** restores them and starts the game. Opening Add / remove mods or updating Dova Locks also restores your modded setup. Close ICARUS before switching.
+
+The organizer manages files; it doesn't merge conflicting mods. Use Icarus Mod Manager when your mods need merging. Mods that replace the same menus or interactions may still conflict.
+
+## Editing lock saves
+
+On the host, the usual location is `%LOCALAPPDATA%\Icarus\Saved\SaveGames`. Look for `DovaLocks_<world ID>_A.sav` and `_B.sav`. Server hosts may put the Saved folder elsewhere.
+
+Stop the game or server and keep both files together. In **Dova Locks save tools**, choose either file and export an editable copy. Remove a player entry to block their access, or set `removeLock` to `true` to clear that lock. Apply the edited file to update both saves. The originals are backed up first.
+
+For a remote server, download both saves before editing and upload both replacements afterwards. Steam IDs identify players; changing a displayed name alone doesn't remove access.
 
 ## Using locks
 
