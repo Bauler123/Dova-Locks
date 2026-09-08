@@ -8,24 +8,26 @@ Lock a door or container, share a four-digit PIN, and decide what other players 
 
 *Your base. Your PIN. Your questionable choice of roommates.*
 
-## What's new in 1.0.1
+## What's new in 1.0.3
 
-More room for big bases, and a little less guesswork.
+Lock controls now use their own shortcut, so powered stations can keep doing their actual jobs.
 
-- Link much larger bases, with room for up to 4,096 building pieces and 8,192 connected objects in total.
-- Clearer messages explain why a base could not be linked.
-- Mission structures and objects marked as part of a quest are kept out of player claims.
-- The installer automatically selects ICARUS when it finds one installation.
-- Scan your mods folder and choose which mods to remove. Removed files are backed up.
-- Install / Update replaces the old Dova Locks file for you and keeps a backup.
+- Hold **Shift + E** to open Lock controls, including on connected equipment.
+- Normal **E** and **Hold E** keep the game's usual interactions.
+- The hint stays beside the lock icon on doors and other supported objects, appears sooner, and changes while Shift is held.
+- Removed the duplicate lock text from the game's Hold E prompt.
+- The installer includes 1.0.3. The installed app can download this update directly.
 
-Update the server and every player's PC to 1.0.1. Your existing locks and remembered access are kept.
+**Update the server and every player's PC together.** Existing locks and access are kept.
+
+Local input, access, save and package checks passed. Please report any remaining interaction issues, especially with connected equipment; live multiplayer coverage is still growing.
+
 
 ## Installation
 
 Choose one download:
 
-- [**Dova-Locks-Installer.exe**](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks-Installer.exe) finds ICARUS on your PC. It selects your game automatically when one installation is found. Click **Install / Update** to replace the old mod and back up the previous files. You can also scan your mods folder and choose mods to remove. The PAK is included.
+- [**Dova-Locks-Installer.exe**](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks-Installer.exe) installs the Dova Locks app. Open the app, let it find ICARUS, then click **Install / Update**. It checks for the latest mod, backs up files it replaces, and lets you scan or remove mods. Version 1.0.3 is also included for offline installation.
 - [**Dova-Locks_P.pak**](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks_P.pak) is the mod file for a manual or hosted-server install.
 
 Close the game and stop the server before installing or updating. For a manual install, put **Dova-Locks_P.pak** in `Icarus/Content/Paks/Mods`. Create `Mods` if it does not exist.
@@ -34,7 +36,7 @@ The host or dedicated server and **every player** need the same release. Players
 
 ## Using locks
 
-1. Hold **E** on a supported door, window, container or bench to open Lock controls.
+1. Look at a supported door, window, container or bench, then hold **Shift + E** to open Lock controls. The hint beside the lock icon shows the shortcut.
 2. Enter four digits and choose **Install lock**. You can paste a PIN or use **Show PIN** to check it.
 3. Share the PIN with the people you want to invite. Entering it grants **Associate** access by default.
 4. The owner can select a player in **Player access** and assign their role.
