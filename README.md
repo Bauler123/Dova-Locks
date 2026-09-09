@@ -8,27 +8,28 @@ Add a PIN, let your friends in, and decide who can use what. You can protect a c
 
 ## Current downloads
 
-- **Dova Locks 1.0.7:** [Download the PAK](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks_P.pak)
+- **Dova Locks 1.0.8:** [Download the PAK](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks_P.pak)
 - **Variant Mod Organizer 1.4.0:** [Download the installer](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest/download/Variant-Mod-Organizer-Installer.exe)
 - [Organizer page on Nexus](https://www.nexusmods.com/icarus/mods/329) · [Organizer source and releases](https://github.com/VariantCreator/Variant-Mod-Organizer)
 
-## What's new in 1.0.7
+## What's new in 1.0.8
 
-- Quicker checks for players with a missing or mismatched mod.
-- Clearer borders around lock menu buttons and boxes.
-- Improved cleanup when opening menus, leaving servers and changing worlds.
-- DovaOutPut events to help track down problems.
-- Organizer 1.4.0 includes the matching mod, a larger diagnostics window and an Unreal crash report viewer.
+Keeps uninvited electricians out of your base.
 
-Automated checks passed. The updated connection checks still need confirmation on a real dedicated server with a player joining without the mod.
+- Network power and priority controls now respect access permissions.
+- Players need permission to connect or remove protected wires and pipes, including water, electricity, fuel and oil.
+- Blocked connections turn red and explain why. Removing a protected connection shows a clear permission message too.
+- Fixed connections between bases getting stuck. You can remove connections to your own equipment without gaining control of someone else's base.
+- Added damage protection for beds, wind turbines, solar panels and water pumps.
+- Made the Install lock button easier to read.
 
-Your locks and player access stay in place when you update. Update the server and everyone playing on it together.
+Update the server and every player together, including anyone who tested an earlier 1.0.8 file. Your existing locks and access stay in place.
 
 ## Getting started
 
 Close ICARUS first, then pick whichever works for you.
 
-**Let the app handle it:** Download [Variant-Mod-Organizer-Installer.exe](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Variant-Mod-Organizer-Installer.exe), install it, and open Variant Mod Organizer. Check the ICARUS folder it found and click **Install / Update**. It downloads Dova Locks and backs up any files it replaces. You'll need an internet connection.
+**Let the app handle it:** Download [Variant-Mod-Organizer-Installer.exe](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest/download/Variant-Mod-Organizer-Installer.exe), install it, and open Variant Mod Organizer. Check the ICARUS folder it found and click **Install / Update**. It downloads Dova Locks and backs up any files it replaces. You'll need an internet connection.
 
 **Install it yourself:** Download [Dova-Locks_P.pak](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks_P.pak) and put it in:
 
@@ -103,3 +104,4 @@ Found a problem? Tell me what happened, which versions you're using and what oth
 You can also check out my [Variant Interactive Map](https://variantinteractivemap.org) for ICARUS and Valheim.
 
 Dova Locks is an unofficial community mod. ICARUS belongs to RocketWerkz and Unreal Engine belongs to Epic Games.
+
