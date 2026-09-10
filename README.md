@@ -61,6 +61,4 @@ Other mods can conflict, especially if they change the same interactions. The Or
 
 If something acts up, tell me what happened, your mod version and what other mods you use. Screenshots and logs help. Keep your PINs out of the screenshot, though.
 
-[Variant Interactive Map](https://variantinteractivemap.org) | [Organizer on Nexus](https://www.nexusmods.com/icarus/mods/329)
-
 Dova Locks is an unofficial community mod. ICARUS belongs to RocketWerkz.
