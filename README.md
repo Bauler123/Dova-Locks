@@ -2,106 +2,65 @@
 
 A little privacy for your ICARUS base, by Dova.
 
-Add a PIN, let your friends in, and decide who can use what. You can protect a connected base with one lock or keep a chest private. Someone has to look after the snacks.
+Set a PIN, let your friends in and decide who can use what. Protect a connected base, set up a Ward or keep a chest private. Someone has to look after the snacks.
 
-[Get the latest version](https://github.com/VariantCreator/Dova-Locks/releases/latest) · [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues) · [Variant Interactive Map](https://variantinteractivemap.org)
+**Current version: 1.0.9**, updated for the September 10 ICARUS update.
 
-## Current downloads
+[Download the mod](https://github.com/VariantCreator/Dova-Locks/releases/latest) | [Variant Mod Organizer](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest) | [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues)
 
-- **Dova Locks 1.0.8:** [Download the PAK](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks_P.pak)
-- **Variant Mod Organizer 1.4.0:** [Download the installer](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest/download/Variant-Mod-Organizer-Installer.exe)
-- [Organizer page on Nexus](https://www.nexusmods.com/icarus/mods/329) · [Organizer source and releases](https://github.com/VariantCreator/Variant-Mod-Organizer)
+## What's new
 
-## What's new in 1.0.8
+- Added **Dova's Ward**. Protect your base with an adjustable area from 1 to 60 meters. A little personal space goes a long way.
+- The Ward screen shows whether protection is on and lets you show or hide its boundary.
+- A new Ward on your own linked base can reuse its PIN and player access. Private storage works inside the Ward too.
+- Fixed more protection gaps, including windows, rugs and other furniture.
+- Players without building access can no longer place equipment on the ground inside your active Ward.
+- Improved the Ward menu and fixed a server issue caused by blocked player fire.
+- Updated for the September 10 ICARUS update.
 
-Keeps uninvited electricians out of your base.
+## Install or update
 
-- Network power and priority controls now respect access permissions.
-- Players need permission to connect or remove protected wires and pipes, including water, electricity, fuel and oil.
-- Blocked connections turn red and explain why. Removing a protected connection shows a clear permission message too.
-- Fixed connections between bases getting stuck. You can remove connections to your own equipment without gaining control of someone else's base.
-- Added damage protection for beds, wind turbines, solar panels and water pumps.
-- Made the Install lock button easier to read.
+**With the app:** Open Variant Mod Organizer, check your ICARUS folder and choose **Install / Update**.
 
-Update the server and every player together, including anyone who tested an earlier 1.0.8 file. Your existing locks and access stay in place.
+**Manually:** Download [Dova-Locks_P.pak](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks_P.pak) and put it in `Icarus/Content/Paks/mods`. Create the mods folder if needed.
 
-## Getting started
+Close ICARUS and stop the server before updating. Replace the old PAK and keep one enabled copy. **The server and every player need the same file**, including anyone who tried an earlier 1.0.9 build. Keep your existing lock saves.
 
-Close ICARUS first, then pick whichever works for you.
+## Use a regular lock
 
-**Let the app handle it:** Download [Variant-Mod-Organizer-Installer.exe](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest/download/Variant-Mod-Organizer-Installer.exe), install it, and open Variant Mod Organizer. Check the ICARUS folder it found and click **Install / Update**. It downloads Dova Locks and backs up any files it replaces. You'll need an internet connection.
+Look at a supported door, window, container or bench. Hold **Shift**, then hold your **Interact key** to open Lock controls. Interact is F by default, or whatever you changed it to.
 
-**Install it yourself:** Download [Dova-Locks_P.pak](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks_P.pak) and put it in:
+Set a four-digit PIN. Choose **Link connected base** to protect the connected building, then share the PIN and manage your friends through **Player access**. Your normal Interact actions still work without Shift.
 
-`Icarus/Content/Paks/mods`
+## Use Dova's Ward
 
-Create the `mods` folder if it's missing. When updating, replace the old PAK and keep just one copy.
+Craft it where you craft the Flow Meter, with the same materials, and place it on a wall. **Tap Interact** to open its screen.
 
-For a hosted server, stop it first and upload the PAK through your host's file manager. The full path usually looks like:
+Set a PIN to turn protection on, then choose a radius from **1 to 60 meters**. Owners and co-owners can change the size. Show the boundary when you want to check coverage, then hide it without turning protection off.
 
-`Server folder/Icarus/Content/Paks/mods/Dova-Locks_P.pak`
+A new Ward on your own linked base can pick up that base's PIN and access. It won't replace a PIN the Ward already has. An existing linked base keeps its protection outside the Ward's radius.
 
-**The server and every player need the same release.** The app gets the latest published version, so check that your server has updated too.
-
-## Using your locks
-
-1. Look at a supported door, window, container or bench. Hold **Shift**, then hold your **Interact key** (F by default, or E if you changed it) to open Lock controls.
-2. Enter a four-digit PIN and choose **Install lock**.
-3. Use **Link connected base** if you want that lock to cover the connected building and its equipment.
-4. Share the PIN with friends. Use **Player access** to choose what each person can do.
-
-Your usual Interact controls still work when you're not holding Shift, including turning equipment on and off. You can paste a PIN, use **Show PIN** to check it, and press **Esc** to close the menu.
-
-Connected pieces join the base lock automatically, including supported stacked items and equipment linked by pipes or cables. Owners and co-owners can also give a chest its own private lock.
+Wards protect your base and placed equipment. They leave mining, trees, natural deposits, wildlife alone. Owners and permitted players can still damage their own protected stuff, so test protection with someone who has no access.
 
 ## Who can do what?
 
-- **Associate:** Use doors, windows and benches. This is what someone gets when they first enter your PIN.
-- **Member:** Use shared storage, build, pick up items and make changes to the base too.
-- **Co-owner:** Do everything a Member can, plus manage locks and remove or restore access for Members and Associates.
-- **Owner:** Full control, including choosing roles and removing co-owners.
+- **Associate:** Use doors, windows and benches. This is the starting role after entering a PIN.
+- **Member:** Use shared storage, build, pick up items and change the base.
+- **Co-owner:** Member access, plus managing locks and access.
+- **Owner:** Full control, including assigning roles.
 
-Access is remembered, so your friends don't have to keep typing the PIN. Remove someone's access and that PIN won't let them back in until you restore it. Private chests have their own access lists.
+Access is remembered. You don't need to type the PIN every visit. Owners and co-owners can give storage its own private lock, including inside a Ward.
 
-Players without permission can't pick up, dismantle or directly damage protected objects. Building-hammer actions and removing connected pipes or cables are covered too. Weather, wildlife and spreading fire can still cause trouble.
+## Saves and support
 
-## Variant Mod Organizer
+Updating keeps your locks and access. Lock saves are usually in `%LOCALAPPDATA%\Icarus\Saved\SaveGames` on the host. Look for the world's `DovaLocks_..._A.sav` and `_B.sav` files. Some server hosts use a different Saved folder.
 
-**Add / remove mods** lets you import PAKs or ZIPs, scan your mods folder and choose what to play with. Disabled mods go on the left, enabled mods on the right. Select a mod and use the arrows, or drag it across. Disabled means parked, not deleted.
+Use the Organizer's **Dova Locks save tools** to edit them. Stop the game or server first and keep both files together. For a remote server, download both, edit them, then upload both replacements.
 
-Search helps when your collection gets a little out of hand. Removed and replaced files are backed up.
+Other mods can conflict, especially if they change the same interactions. The Organizer installs and enables mods; it doesn't merge them. Game updates may need a new Dova Locks release.
 
-**Launch vanilla** puts your enabled mods aside. **Launch modded** brings that loadout back. Mods you disabled individually stay disabled. Both buttons ask before starting ICARUS through Steam, so you can cancel if you clicked the wrong one.
+If something acts up, tell me what happened, your mod version and what other mods you use. Screenshots and logs help. Keep your PINs out of the screenshot, though.
 
-Opening Add / remove mods or updating Dova Locks also restores your modded loadout. Close the game before switching.
+[Variant Interactive Map](https://variantinteractivemap.org) | [Organizer on Nexus](https://www.nexusmods.com/icarus/mods/329)
 
-The organizer doesn't merge mods. Use Icarus Mod Manager if your mods need merging. Mods that change the same menus or interactions can still clash.
-
-Install the new organizer setup to get these app features. If you already have the older Dova Locks app, it can still download mod updates.
-
-## For server owners
-
-Lock saves are usually here on the host:
-
-`%LOCALAPPDATA%\Icarus\Saved\SaveGames`
-
-Look for `DovaLocks_<world ID>_A.sav` and `_B.sav`. Some server hosts use a different Saved folder.
-
-Stop the game or server and keep both files together. Open **Dova Locks save tools** in the organizer and choose either save. Select a lock to see its remembered players, block or restore access, or clear the lock. Click **Save changes to A and B** when ready.
-
-You can also export and import an editable copy for advanced changes. After installing the organizer, Windows offers it under **Open with** for save files.
-
-Saving updates both files. The app backs up the originals first. For a remote server, download both saves before editing and upload both replacements afterwards. Steam IDs identify players, so changing a name alone won't remove access.
-
-## Good to know
-
-Dova Locks is made for dedicated servers and player-hosted games. Player-hosted games have had less testing. Other mods can conflict, and game updates may need a new Dova Locks release.
-
-Updating keeps your locks and access. Removing the mod turns off its protection, so keep your lock saves if you might reinstall it.
-
-Found a problem? Tell me what happened, which versions you're using and what other mods you have. A screenshot helps. Just keep PINs and private server details out of it.
-
-You can also check out my [Variant Interactive Map](https://variantinteractivemap.org) for ICARUS and Valheim.
-
-Dova Locks is an unofficial community mod. ICARUS belongs to RocketWerkz and Unreal Engine belongs to Epic Games.
-
+Dova Locks is an unofficial community mod. ICARUS belongs to RocketWerkz.
