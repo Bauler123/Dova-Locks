@@ -24,7 +24,7 @@ Set a PIN, let your friends in and decide who can use what. Protect a connected 
 
 **Manually:** Download [Dova-Locks_P.pak](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks_P.pak) and put it in `Icarus/Content/Paks/mods`. Create the mods folder if needed.
 
-Close ICARUS and stop the server before updating. Replace the old PAK and keep one enabled copy. **The server and every player need the same file**, including anyone who tried an earlier 1.0.9 build. Keep your existing lock saves.
+Close ICARUS and stop the server before updating. Replace the old PAK and keep one enabled copy. **The server and every player need the same file**, Keep your existing lock saves.
 
 ## Use a regular lock
 
