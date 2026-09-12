@@ -4,7 +4,7 @@ A little privacy for your ICARUS base, by Dova.
 
 Set a PIN, let your friends in and decide who can use what. Protect a connected base, set up a Ward or keep a chest private. Someone has to look after the snacks.
 
-**Current version: 1.0.9**, updated for the September 10 ICARUS update.
+**Current version: 1.1.0**, updated for the September 10 ICARUS update.
 
 [Download the mod](https://github.com/VariantCreator/Dova-Locks/releases/latest) | [Variant Mod Organizer](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest) | [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues)
 
@@ -17,7 +17,9 @@ Set a PIN, let your friends in and decide who can use what. Protect a connected 
 - Players without building access can no longer place equipment on the ground inside your active Ward.
 - Improved the Ward menu and fixed a server issue caused by blocked player fire.
 - Updated for the September 10 ICARUS update.
-
+- Added Show nearby wards (150m).
+- Improved ward Hue.
+- You have to have access to remove plants from plots.
 ## Install or update
 
 **With the app:** Open Variant Mod Organizer, check your ICARUS folder and choose **Install / Update**.
@@ -44,7 +46,7 @@ Wards protect your base and placed equipment. They leave mining, trees, natural 
 
 ## Who can do what?
 
-- **Associate:** Use doors, windows and benches. This is the starting role after entering a PIN.
+- **Associate:** Use doors, windows and benches. Repair. This is the starting role after entering a PIN.
 - **Member:** Use shared storage, build, pick up items and change the base.
 - **Co-owner:** Member access, plus managing locks and access.
 - **Owner:** Full control, including assigning roles.
