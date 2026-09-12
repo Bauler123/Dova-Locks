@@ -6,7 +6,7 @@ Set a PIN, let your friends in and decide who can use what. Protect a connected 
 
 **Current version: 1.1.0**, updated for the September 10 ICARUS update.
 
-[Download the mod](https://github.com/VariantCreator/Dova-Locks/releases/latest) | [Variant Mod Organizer](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest) | [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues)
+[Download the mod](https://github.com/VariantCreator/Dova-Locks/releases/latest)) | [Variant Mod Organizer](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest) | [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues)
 
 ## What's new
 
@@ -25,7 +25,7 @@ Set a PIN, let your friends in and decide who can use what. Protect a connected 
 
 **With the app:** Open Variant Mod Organizer, check your ICARUS folder and choose **Install / Update**.
 
-**Manually:** Download [Dova-Locks_P.pak](https://github.com/VariantCreator/Dova-Locks/releases/latest/download/Dova-Locks_P.pak) and put it in `Icarus/Content/Paks/mods`. Create the mods folder if needed.
+**Manually:** Download [Dova-Locks_P.pak]((https://github.com/VariantCreator/Dova-Locks/releases/tag/1.1.0)) and put it in `Icarus/Content/Paks/mods`. Create the mods folder if needed.
 
 Close ICARUS and stop the server before updating. Replace the old PAK and keep one enabled copy. **The server and every player need the same file**, Keep your existing lock saves.
 
