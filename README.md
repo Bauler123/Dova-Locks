@@ -20,6 +20,7 @@ Set a PIN, let your friends in and decide who can use what. Protect a connected 
 - Added Show nearby wards (150m).
 - Improved ward Hue.
 - You have to have access to remove plants from plots.
+- Anyone can repair, but not upgrade.
 ## Install or update
 
 **With the app:** Open Variant Mod Organizer, check your ICARUS folder and choose **Install / Update**.
