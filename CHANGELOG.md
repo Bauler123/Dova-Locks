@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1
+## 1.1.1
 
 - Name your Ward and find it on the map. Show nearby Wards within 150 m.
 - Ward and linked-base access now stay in sync. Private storage still gets its own rules.

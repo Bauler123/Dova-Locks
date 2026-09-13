@@ -2,9 +2,9 @@
 
 Your base. Your PIN. Your questionable choice of roommates.
 
-**Version 1.1** adds shared PIN locks and Ward protection to ICARUS. Give friends access, keep a chest private, and stop the neighbors helping themselves to everything that isn't nailed down.
+**Version 1.1.1** adds shared PIN locks and Ward protection to ICARUS. Give friends access, keep a chest private, and stop the neighbors helping themselves to everything that isn't nailed down.
 
-[Download 1.1](https://github.com/VariantCreator/Dova-Locks/releases/latest) · [Nexus](https://www.nexusmods.com/icarus/mods/325) · [Variant Mod Organizer](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest) · [Variant Interactive Map](https://variantinteractivemap.org)
+[Download 1.1.1](https://github.com/VariantCreator/Dova-Locks/releases/latest) · [Nexus](https://www.nexusmods.com/icarus/mods/325) · [Variant Mod Organizer](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest) · [Variant Interactive Map](https://variantinteractivemap.org)
 
 ## What's new
 
