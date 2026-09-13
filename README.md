@@ -1,67 +1,57 @@
 # Dova Locks
 
-A little privacy for your ICARUS base, by Dova.
+Your base. Your PIN. Your questionable choice of roommates.
 
-Set a PIN, let your friends in and decide who can use what. Protect a connected base, set up a Ward or keep a chest private. Someone has to look after the snacks.
+**Version 1.1** adds shared PIN locks and Ward protection to ICARUS. Give friends access, keep a chest private, and stop the neighbors helping themselves to everything that isn't nailed down.
 
-**Current version: 1.1.0**, updated for the September 10 ICARUS update.
-
-[Download the mod](https://github.com/VariantCreator/Dova-Locks/releases/latest)) | [Variant Mod Organizer](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest) | [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues)
+[Download 1.1](https://github.com/VariantCreator/Dova-Locks/releases/latest) · [Nexus](https://www.nexusmods.com/icarus/mods/325) · [Variant Mod Organizer](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest) · [Variant Interactive Map](https://variantinteractivemap.org)
 
 ## What's new
 
-- Added **Dova's Ward**. Protect your base with an adjustable area from 1 to 60 meters. A little personal space goes a long way.
-- The Ward screen shows whether protection is on and lets you show or hide its boundary.
-- A new Ward on your own linked base can reuse its PIN and player access. Private storage works inside the Ward too.
-- Fixed more protection gaps, including windows, rugs and other furniture.
-- Players without building access can no longer place equipment on the ground inside your active Ward.
-- Improved the Ward menu and fixed a server issue caused by blocked player fire.
-- Updated for the September 10 ICARUS update.
-- Added Show nearby wards (150m).
-- Improved ward Hue.
-- You have to have access to remove plants from plots.
-- Anyone can repair, but not upgrade. 
-## Install or update
+- Name your Ward and find it on the map. Show nearby Wards within 150 m.
+- Ward and linked-base access now stay in sync. Private storage still gets its own rules.
+- Anyone can repair. Upgrades and removing crops need the right access. Helping out is fine; redecorating is not.
+- Check nearby protection with see-through green and red highlights that follow the build pieces.
+- Clearer Ward controls, boundary colors and access details.
+- Fixed dropped Ward pickup and added loot bag protection inside active Wards.
+- The Ward now explains when a separate linked base lock is still active after removing its lock.
 
-**With the app:** Open Variant Mod Organizer, check your ICARUS folder and choose **Install / Update**.
+Update the server and every player with this same PAK. Keep your existing lock saves.
 
-**Manually:** Download [Dova-Locks_P.pak]((https://github.com/VariantCreator/Dova-Locks/releases/tag/1.1.0)) and put it in `Icarus/Content/Paks/mods`. Create the mods folder if needed.
+## Get started
 
-Close ICARUS and stop the server before updating. Replace the old PAK and keep one enabled copy. **The server and every player need the same file**, Keep your existing lock saves.
+Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need the same file.** Back up your prospect and both A/B lock saves before updating.
 
-## Use a regular lock
+For a regular lock, look at a supported door, window, container or bench. Hold **Shift**, then hold your **Interact key**. That's F by default, or your custom key. Set four digits and use **Link connected base** to protect the connected structure.
 
-Look at a supported door, window, container or bench. Hold **Shift**, then hold your **Interact key** to open Lock controls. Interact is F by default, or whatever you changed it to.
+## Dova's Ward
 
-Set a four-digit PIN. Choose **Link connected base** to protect the connected building, then share the PIN and manage your friends through **Player access**. Your normal Interact actions still work without Shift.
+Craft it where you craft the Flow Meter, using the same materials. Place it and **tap Interact** to use its screen. A new PIN turns protection on. Owners and co-owners can set its radius from **1 to 60 m**, name it, and show or hide the boundary.
 
-## Use Dova's Ward
+A new Ward on your own linked base reuses its PIN and access. Changes to shared access carry across both. An existing linked base remains protected beyond the Ward radius, and removing the Ward lock does not remove that separate base lock. The menu tells you when it is still active.
 
-Craft it where you craft the Flow Meter, with the same materials, and place it on a wall. **Tap Interact** to open its screen.
+Check nearby protection for a 12-second view: **green has an active lock; red has none**. It covers loaded build pieces within 70 m, up to 128 objects. Show nearby Wards displays boundaries within 150 m. Hiding a boundary does not turn protection off.
 
-Set a PIN to turn protection on, then choose a radius from **1 to 60 meters**. Owners and co-owners can change the size. Show the boundary when you want to check coverage, then hide it without turning protection off.
-
-A new Ward on your own linked base can pick up that base's PIN and access. It won't replace a PIN the Ward already has. An existing linked base keeps its protection outside the Ward's radius.
-
-Wards protect your base and placed equipment. They leave mining, trees, natural deposits, wildlife alone. Owners and permitted players can still damage their own protected stuff, so test protection with someone who has no access.
+The Ward covers your base, placed equipment and loot bags. Mining, chopping trees and dealing with wildlife work normally. Storms still get a vote. Players with the right access can damage their own protected stuff.
 
 ## Who can do what?
 
-- **Associate:** Use doors, windows and benches. Repair. This is the starting role after entering a PIN.
-- **Member:** Use shared storage, build, pick up items and change the base.
-- **Co-owner:** Member access, plus managing locks and access.
+- **Guest:** Repair, but no protected access or building changes.
+- **Associate:** Repair and use doors, windows and benches. This is the starting role after entering a PIN.
+- **Member:** Shared storage, building, upgrades, pickup and crop removal.
+- **Co-owner:** Member access, plus managing locks, Ward settings and access.
 - **Owner:** Full control, including assigning roles.
 
-Access is remembered. You don't need to type the PIN every visit. Owners and co-owners can give storage its own private lock, including inside a Ward.
+Access is remembered. Owners and co-owners can give storage a private lock inside a shared base or Ward. The snacks are safe. Probably.
 
 ## Saves and support
 
-Updating keeps your locks and access. Lock saves are usually in `%LOCALAPPDATA%\Icarus\Saved\SaveGames` on the host. Look for the world's `DovaLocks_..._A.sav` and `_B.sav` files. Some server hosts use a different Saved folder.
+The host holds the world's lock saves, usually under `%LOCALAPPDATA%/Icarus/Saved/SaveGames`. Look for `DovaLocks_..._A.sav` and `_B.sav`. Some server hosts use a different Saved folder.
 
-Use the Organizer's **Dova Locks save tools** to edit them. Stop the game or server first and keep both files together. For a remote server, download both, edit them, then upload both replacements.
+Stop the server before editing. For a remote server, download both saves, edit them with the Organizer, then upload both replacements. Editing a client's local files does not edit a remote server.
 
-Other mods can conflict, especially if they change the same interactions. The Organizer installs and enables mods; it doesn't merge them. Game updates may need a new Dova Locks release.
+Other mods can conflict if they change the same assets. The Organizer handles PAKs; it does not merge them. Game updates may need a mod update.
 
-If something acts up, tell me what happened, your mod version and what other mods you use. Screenshots and logs help. Keep your PINs out of the screenshot, though.
+[Report a problem](https://github.com/VariantCreator/Dova-Locks/issues) with your version, what happened and any other mods involved. Logs and screenshots help. A screenshot of your PIN helps the wrong people, so leave that out.
 
-Dova Locks is an unofficial community mod. ICARUS belongs to RocketWerkz.
+Unofficial community mod. ICARUS belongs to RocketWerkz.

@@ -1,16 +1,13 @@
-# Dova Locks 1.1.0
+# Changelog
 
- ### Improvements & adjustments to the ward/protection systems
+## 1.1
 
-- Added Show nearby wards (150m).
-- Improved ward Hue.
-- You have to have access to remove plants from plots.
-- Anyone can repair, but not upgrade.
+- Name your Ward and find it on the map. Show nearby Wards within 150 m.
+- Ward and linked-base access now stay in sync. Private storage still gets its own rules.
+- Anyone can repair. Upgrades and removing crops need the right access. Helping out is fine; redecorating is not.
+- Check nearby protection with see-through green and red highlights that follow the build pieces.
+- Clearer Ward controls, boundary colors and access details.
+- Fixed dropped Ward pickup and added loot bag protection inside active Wards.
+- The Ward now explains when a separate linked base lock is still active after removing its lock.
 
-Update the server and every player together. Close ICARUS and stop the server, replace the old `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, and keep one copy. Your existing lock saves stay in place.
-
-Variant Mod Organizer can get this release through Install / Update.
-
-Craft Dova's Ward where you craft the Flow Meter, using the same materials. Tap your Interact key to use the Ward. For regular locks, hold Shift and your Interact key. That's F by default, or your custom key.
- 
-[Full instructions](https://github.com/VariantCreator/Dova-Locks#readme) | [Variant Mod Organizer](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest)
+Update the server and every player with this same PAK. Keep your existing lock saves.
